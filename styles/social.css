@@ -1,0 +1,36 @@
+.social {
+  display: flex;
+  column-gap: 8px;
+
+  margin-top: 24px;
+}
+
+.social_link {
+  width: 46px;
+  height: 46px;
+
+  border-radius: 4px;
+  background: var(--background-body);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 0.3s;
+}
+
+.social_link:hover i {
+  transform: translatey(-80%);
+}
+
+.social_link i {
+  font-size: 24px;
+}
+
+.ph-linkedin-logo {
+  color: #0072b1;
+}
+
+.ph-github-logo {
+  color: #171515;
+}

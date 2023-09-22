@@ -1,3 +1,6 @@
+@import url('./user.css');
+@import url('./social.css');
+
 * {
   margin: 0;
   padding: 0;
